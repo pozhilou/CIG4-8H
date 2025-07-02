@@ -1,0 +1,305 @@
+device: /dev/xdma0_user, address: 0x30004 (0x30000+0x4), access write.
+access width: word (32-bits)
+character device /dev/xdma0_user opened.
+Memory 0x30000 mapped at address 0x7fa049d98000.
+Write 32-bits value 0x000000ff to 0x30004 (0x0x7fa049d98004)
+device: /dev/xdma0_user, address: 0x30004 (0x30000+0x4), access write.
+access width: word (32-bits)
+character device /dev/xdma0_user opened.
+Memory 0x30000 mapped at address 0x7f8b4009e000.
+Write 32-bits value 0x00000000 to 0x30004 (0x0x7f8b4009e004)
+device: /dev/xdma0_user, address: 0x30008 (0x30000+0x8), access write.
+access width: word (32-bits)
+character device /dev/xdma0_user opened.
+Memory 0x30000 mapped at address 0x7f6263fd5000.
+Write 32-bits value 0x00000000 to 0x30008 (0x0x7f6263fd5008)
+device: /dev/xdma0_user, address: 0x70000 (0x70000+0x0), access write.
+access width: word (32-bits)
+character device /dev/xdma0_user opened.
+Memory 0x70000 mapped at address 0x7efc49bc9000.
+Write 32-bits value 0x00000002 to 0x70000 (0x0x7efc49bc9000)
+device: /dev/xdma0_user, address: 0x80000 (0x80000+0x0), access write.
+access width: word (32-bits)
+character device /dev/xdma0_user opened.
+Memory 0x80000 mapped at address 0x7fd581e7e000.
+Write 32-bits value 0x00000002 to 0x80000 (0x0x7fd581e7e000)
+device: /dev/xdma0_user, address: 0x90000 (0x90000+0x0), access write.
+access width: word (32-bits)
+character device /dev/xdma0_user opened.
+Memory 0x90000 mapped at address 0x7f7d8ec4c000.
+Write 32-bits value 0x00000002 to 0x90000 (0x0x7f7d8ec4c000)
+device: /dev/xdma0_user, address: 0xa0000 (0xa0000+0x0), access write.
+access width: word (32-bits)
+character device /dev/xdma0_user opened.
+Memory 0xa0000 mapped at address 0x7ffa53409000.
+Write 32-bits value 0x00000002 to 0xa0000 (0x0x7ffa53409000)
+device: /dev/xdma0_user, address: 0xb0000 (0xb0000+0x0), access write.
+access width: word (32-bits)
+character device /dev/xdma0_user opened.
+Memory 0xb0000 mapped at address 0x7f36aed2f000.
+Write 32-bits value 0x00000002 to 0xb0000 (0x0x7f36aed2f000)
+device: /dev/xdma0_user, address: 0xc0000 (0xc0000+0x0), access write.
+access width: word (32-bits)
+character device /dev/xdma0_user opened.
+Memory 0xc0000 mapped at address 0x7f630c588000.
+Write 32-bits value 0x00000002 to 0xc0000 (0x0x7f630c588000)
+device: /dev/xdma0_user, address: 0xd0000 (0xd0000+0x0), access write.
+access width: word (32-bits)
+character device /dev/xdma0_user opened.
+Memory 0xd0000 mapped at address 0x7f1b2500f000.
+Write 32-bits value 0x00000002 to 0xd0000 (0x0x7f1b2500f000)
+device: /dev/xdma0_user, address: 0xe0000 (0xe0000+0x0), access write.
+access width: word (32-bits)
+character device /dev/xdma0_user opened.
+Memory 0xe0000 mapped at address 0x7f2b4d151000.
+Write 32-bits value 0x00000002 to 0xe0000 (0x0x7f2b4d151000)
+device: /dev/xdma0_user, address: 0x30100 (0x30000+0x100), access write.
+access width: word (32-bits)
+character device /dev/xdma0_user opened.
+Memory 0x30000 mapped at address 0x7fa8ec9f4000.
+Write 32-bits value 0x00000780 to 0x30100 (0x0x7fa8ec9f4100)
+device: /dev/xdma0_user, address: 0x30104 (0x30000+0x104), access write.
+access width: word (32-bits)
+character device /dev/xdma0_user opened.
+Memory 0x30000 mapped at address 0x7f9d80955000.
+Write 32-bits value 0x00000438 to 0x30104 (0x0x7f9d80955104)
+device: /dev/xdma0_user, address: 0x30108 (0x30000+0x108), access write.
+access width: word (32-bits)
+character device /dev/xdma0_user opened.
+Memory 0x30000 mapped at address 0x7fa0fab43000.
+Write 32-bits value 0x00000780 to 0x30108 (0x0x7fa0fab43108)
+device: /dev/xdma0_user, address: 0x3010c (0x30000+0x10c), access write.
+access width: word (32-bits)
+character device /dev/xdma0_user opened.
+Memory 0x30000 mapped at address 0x7f31a5412000.
+Write 32-bits value 0x00000438 to 0x3010c (0x0x7f31a541210c)
+device: /dev/xdma0_user, address: 0x30110 (0x30000+0x110), access write.
+access width: word (32-bits)
+character device /dev/xdma0_user opened.
+Memory 0x30000 mapped at address 0x7f6573eed000.
+Write 32-bits value 0x00000780 to 0x30110 (0x0x7f6573eed110)
+device: /dev/xdma0_user, address: 0x30114 (0x30000+0x114), access write.
+access width: word (32-bits)
+character device /dev/xdma0_user opened.
+Memory 0x30000 mapped at address 0x7f9b9ac3b000.
+Write 32-bits value 0x00000438 to 0x30114 (0x0x7f9b9ac3b114)
+device: /dev/xdma0_user, address: 0x30118 (0x30000+0x118), access write.
+access width: word (32-bits)
+character device /dev/xdma0_user opened.
+Memory 0x30000 mapped at address 0x7fad5eaca000.
+Write 32-bits value 0x00000780 to 0x30118 (0x0x7fad5eaca118)
+device: /dev/xdma0_user, address: 0x3011c (0x30000+0x11c), access write.
+access width: word (32-bits)
+character device /dev/xdma0_user opened.
+Memory 0x30000 mapped at address 0x7fc7596af000.
+Write 32-bits value 0x00000438 to 0x3011c (0x0x7fc7596af11c)
+device: /dev/xdma0_user, address: 0x30120 (0x30000+0x120), access write.
+access width: word (32-bits)
+character device /dev/xdma0_user opened.
+Memory 0x30000 mapped at address 0x7fc118ccd000.
+Write 32-bits value 0x00000780 to 0x30120 (0x0x7fc118ccd120)
+device: /dev/xdma0_user, address: 0x30124 (0x30000+0x124), access write.
+access width: word (32-bits)
+character device /dev/xdma0_user opened.
+Memory 0x30000 mapped at address 0x7f07af7cb000.
+Write 32-bits value 0x00000438 to 0x30124 (0x0x7f07af7cb124)
+device: /dev/xdma0_user, address: 0x30128 (0x30000+0x128), access write.
+access width: word (32-bits)
+character device /dev/xdma0_user opened.
+Memory 0x30000 mapped at address 0x7fc62b1a2000.
+Write 32-bits value 0x00000780 to 0x30128 (0x0x7fc62b1a2128)
+device: /dev/xdma0_user, address: 0x3012c (0x30000+0x12c), access write.
+access width: word (32-bits)
+character device /dev/xdma0_user opened.
+Memory 0x30000 mapped at address 0x7fd583673000.
+Write 32-bits value 0x00000438 to 0x3012c (0x0x7fd58367312c)
+device: /dev/xdma0_user, address: 0x30130 (0x30000+0x130), access write.
+access width: word (32-bits)
+character device /dev/xdma0_user opened.
+Memory 0x30000 mapped at address 0x7faf5f906000.
+Write 32-bits value 0x00000780 to 0x30130 (0x0x7faf5f906130)
+device: /dev/xdma0_user, address: 0x30134 (0x30000+0x134), access write.
+access width: word (32-bits)
+character device /dev/xdma0_user opened.
+Memory 0x30000 mapped at address 0x7f9c91feb000.
+Write 32-bits value 0x00000438 to 0x30134 (0x0x7f9c91feb134)
+device: /dev/xdma0_user, address: 0x30138 (0x30000+0x138), access write.
+access width: word (32-bits)
+character device /dev/xdma0_user opened.
+Memory 0x30000 mapped at address 0x7f75d6821000.
+Write 32-bits value 0x00000780 to 0x30138 (0x0x7f75d6821138)
+device: /dev/xdma0_user, address: 0x3013c (0x30000+0x13c), access write.
+access width: word (32-bits)
+character device /dev/xdma0_user opened.
+Memory 0x30000 mapped at address 0x7f1836fd8000.
+Write 32-bits value 0x00000438 to 0x3013c (0x0x7f1836fd813c)
+device: /dev/xdma0_user, address: 0x30190 (0x30000+0x190), access write.
+access width: word (32-bits)
+character device /dev/xdma0_user opened.
+Memory 0x30000 mapped at address 0x7fb68f512000.
+Write 32-bits value 0x00000064 to 0x30190 (0x0x7fb68f512190)
+device: /dev/xdma0_user, address: 0x30194 (0x30000+0x194), access write.
+access width: word (32-bits)
+character device /dev/xdma0_user opened.
+Memory 0x30000 mapped at address 0x7f9b3e7d7000.
+Write 32-bits value 0x00000064 to 0x30194 (0x0x7f9b3e7d7194)
+device: /dev/xdma0_user, address: 0x30198 (0x30000+0x198), access write.
+access width: word (32-bits)
+character device /dev/xdma0_user opened.
+Memory 0x30000 mapped at address 0x7f5622768000.
+Write 32-bits value 0x00000064 to 0x30198 (0x0x7f5622768198)
+device: /dev/xdma0_user, address: 0x3019c (0x30000+0x19c), access write.
+access width: word (32-bits)
+character device /dev/xdma0_user opened.
+Memory 0x30000 mapped at address 0x7fadfef1d000.
+Write 32-bits value 0x00000064 to 0x3019c (0x0x7fadfef1d19c)
+device: /dev/xdma0_user, address: 0x301a0 (0x30000+0x1a0), access write.
+access width: word (32-bits)
+character device /dev/xdma0_user opened.
+Memory 0x30000 mapped at address 0x7f77d3d77000.
+Write 32-bits value 0x00000064 to 0x301a0 (0x0x7f77d3d771a0)
+device: /dev/xdma0_user, address: 0x301a4 (0x30000+0x1a4), access write.
+access width: word (32-bits)
+character device /dev/xdma0_user opened.
+Memory 0x30000 mapped at address 0x7f9626b91000.
+Write 32-bits value 0x00000064 to 0x301a4 (0x0x7f9626b911a4)
+device: /dev/xdma0_user, address: 0x301a8 (0x30000+0x1a8), access write.
+access width: word (32-bits)
+character device /dev/xdma0_user opened.
+Memory 0x30000 mapped at address 0x7f67e075e000.
+Write 32-bits value 0x00000064 to 0x301a8 (0x0x7f67e075e1a8)
+device: /dev/xdma0_user, address: 0x301ac (0x30000+0x1ac), access write.
+access width: word (32-bits)
+character device /dev/xdma0_user opened.
+Memory 0x30000 mapped at address 0x7f5799f4f000.
+Write 32-bits value 0x00000064 to 0x301ac (0x0x7f5799f4f1ac)
+device: /dev/xdma0_user, address: 0x30024 (0x30000+0x24), access write.
+access width: word (32-bits)
+character device /dev/xdma0_user opened.
+Memory 0x30000 mapped at address 0x7fe6eb75b000.
+Write 32-bits value 0x0065b9aa to 0x30024 (0x0x7fe6eb75b024)
+device: /dev/xdma0_user, address: 0x30028 (0x30000+0x28), access write.
+access width: word (32-bits)
+character device /dev/xdma0_user opened.
+Memory 0x30000 mapped at address 0x7f516a9b0000.
+Write 32-bits value 0x0065b9aa to 0x30028 (0x0x7f516a9b0028)
+device: /dev/xdma0_user, address: 0x3002c (0x30000+0x2c), access write.
+access width: word (32-bits)
+character device /dev/xdma0_user opened.
+Memory 0x30000 mapped at address 0x7fe8065c1000.
+Write 32-bits value 0x0065b9aa to 0x3002c (0x0x7fe8065c102c)
+device: /dev/xdma0_user, address: 0x30030 (0x30000+0x30), access write.
+access width: word (32-bits)
+character device /dev/xdma0_user opened.
+Memory 0x30000 mapped at address 0x7f7dde417000.
+Write 32-bits value 0x0065b9aa to 0x30030 (0x0x7f7dde417030)
+device: /dev/xdma0_user, address: 0x30034 (0x30000+0x34), access write.
+access width: word (32-bits)
+character device /dev/xdma0_user opened.
+Memory 0x30000 mapped at address 0x7f4a4ffeb000.
+Write 32-bits value 0x0065b9aa to 0x30034 (0x0x7f4a4ffeb034)
+device: /dev/xdma0_user, address: 0x30038 (0x30000+0x38), access write.
+access width: word (32-bits)
+character device /dev/xdma0_user opened.
+Memory 0x30000 mapped at address 0x7fd648312000.
+Write 32-bits value 0x0065b9aa to 0x30038 (0x0x7fd648312038)
+device: /dev/xdma0_user, address: 0x3003c (0x30000+0x3c), access write.
+access width: word (32-bits)
+character device /dev/xdma0_user opened.
+Memory 0x30000 mapped at address 0x7f09a3439000.
+Write 32-bits value 0x0065b9aa to 0x3003c (0x0x7f09a343903c)
+device: /dev/xdma0_user, address: 0x30040 (0x30000+0x40), access write.
+access width: word (32-bits)
+character device /dev/xdma0_user opened.
+Memory 0x30000 mapped at address 0x7f483f081000.
+Write 32-bits value 0x0065b9aa to 0x30040 (0x0x7f483f081040)
+device: /dev/xdma0_user, address: 0x70000 (0x70000+0x0), access write.
+access width: word (32-bits)
+character device /dev/xdma0_user opened.
+Memory 0x70000 mapped at address 0x7f49596a9000.
+Read 32-bit value at address 0x70000 (0x7f49596a9000): 0x00000006
+device: /dev/xdma0_user, address: 0x80000 (0x80000+0x0), access write.
+access width: word (32-bits)
+character device /dev/xdma0_user opened.
+Memory 0x80000 mapped at address 0x7f6d2abe7000.
+Read 32-bit value at address 0x80000 (0x7f6d2abe7000): 0x00000006
+device: /dev/xdma0_user, address: 0x90000 (0x90000+0x0), access write.
+access width: word (32-bits)
+character device /dev/xdma0_user opened.
+Memory 0x90000 mapped at address 0x7f7db3c54000.
+Read 32-bit value at address 0x90000 (0x7f7db3c54000): 0x00000006
+device: /dev/xdma0_user, address: 0xa0000 (0xa0000+0x0), access write.
+access width: word (32-bits)
+character device /dev/xdma0_user opened.
+Memory 0xa0000 mapped at address 0x7f22ab9e8000.
+Read 32-bit value at address 0xa0000 (0x7f22ab9e8000): 0x00000006
+device: /dev/xdma0_user, address: 0xb0000 (0xb0000+0x0), access write.
+access width: word (32-bits)
+character device /dev/xdma0_user opened.
+Memory 0xb0000 mapped at address 0x7ff41ecd6000.
+Read 32-bit value at address 0xb0000 (0x7ff41ecd6000): 0x00000006
+device: /dev/xdma0_user, address: 0xc0000 (0xc0000+0x0), access write.
+access width: word (32-bits)
+character device /dev/xdma0_user opened.
+Memory 0xc0000 mapped at address 0x7f5f89718000.
+Read 32-bit value at address 0xc0000 (0x7f5f89718000): 0x00000006
+device: /dev/xdma0_user, address: 0xd0000 (0xd0000+0x0), access write.
+access width: word (32-bits)
+character device /dev/xdma0_user opened.
+Memory 0xd0000 mapped at address 0x7fb5a01df000.
+Read 32-bit value at address 0xd0000 (0x7fb5a01df000): 0x00000006
+device: /dev/xdma0_user, address: 0xe0000 (0xe0000+0x0), access write.
+access width: word (32-bits)
+character device /dev/xdma0_user opened.
+Memory 0xe0000 mapped at address 0x7f81542a4000.
+Read 32-bit value at address 0xe0000 (0x7f81542a4000): 0x00000006
+device: /dev/xdma0_user, address: 0x70000 (0x70000+0x0), access write.
+access width: word (32-bits)
+character device /dev/xdma0_user opened.
+Memory 0x70000 mapped at address 0x7f017ced2000.
+Write 32-bits value 0x00000001 to 0x70000 (0x0x7f017ced2000)
+device: /dev/xdma0_user, address: 0x80000 (0x80000+0x0), access write.
+access width: word (32-bits)
+character device /dev/xdma0_user opened.
+Memory 0x80000 mapped at address 0x7f9fabfda000.
+Write 32-bits value 0x00000001 to 0x80000 (0x0x7f9fabfda000)
+device: /dev/xdma0_user, address: 0x90000 (0x90000+0x0), access write.
+access width: word (32-bits)
+character device /dev/xdma0_user opened.
+Memory 0x90000 mapped at address 0x7f5215ac7000.
+Write 32-bits value 0x00000001 to 0x90000 (0x0x7f5215ac7000)
+device: /dev/xdma0_user, address: 0xa0000 (0xa0000+0x0), access write.
+access width: word (32-bits)
+character device /dev/xdma0_user opened.
+Memory 0xa0000 mapped at address 0x7f141f31d000.
+Write 32-bits value 0x00000001 to 0xa0000 (0x0x7f141f31d000)
+device: /dev/xdma0_user, address: 0xb0000 (0xb0000+0x0), access write.
+access width: word (32-bits)
+character device /dev/xdma0_user opened.
+Memory 0xb0000 mapped at address 0x7f0d36eee000.
+Write 32-bits value 0x00000001 to 0xb0000 (0x0x7f0d36eee000)
+device: /dev/xdma0_user, address: 0xc0000 (0xc0000+0x0), access write.
+access width: word (32-bits)
+character device /dev/xdma0_user opened.
+Memory 0xc0000 mapped at address 0x7f673017f000.
+Write 32-bits value 0x00000001 to 0xc0000 (0x0x7f673017f000)
+device: /dev/xdma0_user, address: 0xd0000 (0xd0000+0x0), access write.
+access width: word (32-bits)
+character device /dev/xdma0_user opened.
+Memory 0xd0000 mapped at address 0x7fc2f9bf1000.
+Write 32-bits value 0x00000001 to 0xd0000 (0x0x7fc2f9bf1000)
+device: /dev/xdma0_user, address: 0xe0000 (0xe0000+0x0), access write.
+access width: word (32-bits)
+character device /dev/xdma0_user opened.
+Memory 0xe0000 mapped at address 0x7f17fb856000.
+Write 32-bits value 0x00000001 to 0xe0000 (0x0x7f17fb856000)
+device: /dev/xdma0_user, address: 0x3000c (0x30000+0xc), access write.
+access width: word (32-bits)
+character device /dev/xdma0_user opened.
+Memory 0x30000 mapped at address 0x7f088499f000.
+Write 32-bits value 0x000000ff to 0x3000c (0x0x7f088499f00c)
+device: /dev/xdma0_user, address: 0x30020 (0x30000+0x20), access write.
+access width: word (32-bits)
+character device /dev/xdma0_user opened.
+Memory 0x30000 mapped at address 0x7fcd56594000.
+Write 32-bits value 0x22222222 to 0x30020 (0x0x7fcd56594020)
