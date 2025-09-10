@@ -349,6 +349,12 @@ int send_one_frame(unsigned char* bufffer)
 {
 	//printf("send_one_frame_by decode ****************************\n");
 	test_dma(g_addr,g_aperture,g_size,g_offset,bufffer,g_wait_addr);
+	//g_addr 每一个通道buf的首地址，代码有定义，数组索引赋值地址
+	//g_aperture 固定是0
+	//g_size 每个通道buf的大小 1920*1080*2
+	//g_offset 好像是0，待确认
+	//bufffer yuyv的数据指针
+	//g_wait_addr 代码有定义，判断是否有空闲buf，=3代表空闲等待，其他值代表可写数据
 }
 
 static int test_dma(uint64_t addr, uint64_t aperture,
@@ -648,4 +654,156 @@ close:
 	close(fd);
 
 	return err;
+}
+
+// 按照顺序依次调用
+int fpga_reset(int card_num)
+{
+	g_card = card_num;
+	reg_rw(0x30004, 1, 0xFF);
+
+	usleep(1000*1000);//1s
+
+	reg_rw(0x30004, 1, 0x00);
+	reg_rw(0x30008, 1, 0x00);
+	reg_rw(0x70000, 1, 0x02);
+	reg_rw(0x80000, 1, 0x02);
+	reg_rw(0x90000, 1, 0x02);
+	reg_rw(0xA0000, 1, 0x02);
+	reg_rw(0xB0000, 1, 0x02);
+	reg_rw(0xC0000, 1, 0x02);
+	reg_rw(0xD0000, 1, 0x02);
+	reg_rw(0xE0000, 1, 0x02);
+}
+
+int fpga_resolution(int card_num, int channel, int width, int height)
+{
+	g_card = card_num;
+	if(channel == 0)
+	{
+		reg_rw(0x30100, 1, width);
+		reg_rw(0x30104, 1, height);
+		reg_rw(0x301b0, 1, width/2);
+		reg_rw(0x70040, 1, height);
+	} else if(channel == 1)
+	{
+		reg_rw(0x30108, 1, width);
+		reg_rw(0x3010C, 1, height);
+		reg_rw(0x301b4, 1, width/2);
+		reg_rw(0x80040, 1, height);
+	} else if(channel == 2)
+	{
+		reg_rw(0x30110, 1, width);
+		reg_rw(0x30114, 1, height);
+		reg_rw(0x301b8, 1, width/2);
+		reg_rw(0x90040, 1, height);
+	} else if(channel == 3)
+	{
+		reg_rw(0x30118, 1, width);
+		reg_rw(0x3011c, 1, height);
+		reg_rw(0x301bc, 1, width/2);
+		reg_rw(0xa0040, 1, height);
+	} else if(channel == 4)
+	{
+		reg_rw(0x30120, 1, width);
+		reg_rw(0x30124, 1, height);
+		reg_rw(0x301c0, 1, width/2);
+		reg_rw(0xb0040, 1, height);
+	} else if(channel == 5)
+	{
+		reg_rw(0x30128, 1, width);
+		reg_rw(0x3012c, 1, height);
+		reg_rw(0x301c4, 1, width/2);
+		reg_rw(0xc0040, 1, height);
+
+	} else if(channel == 6)
+	{
+		reg_rw(0x30130, 1, width);
+		reg_rw(0x30134, 1, height);
+		reg_rw(0x301c8, 1, width/2);
+		reg_rw(0xd0040, 1, height);
+	} else if(channel == 7)
+	{
+		reg_rw(0x30138, 1, width);
+		reg_rw(0x3013c, 1, height);
+		reg_rw(0x301cc, 1, width/2);
+		reg_rw(0xe0040, 1, height);
+	}
+}
+
+int fpga_fps(int card_num, int fps)
+{
+	int value;
+	if (fps == 30)
+		value = 6666666;
+	else if(fps == 20)
+		value = 10000000;
+	else if(fps == 10)
+		value = 20000000;
+
+	g_card = card_num;
+	//set fps
+	reg_rw(0x30190, 1, 1100);
+	reg_rw(0x30194, 1, 1100);
+	reg_rw(0x30198, 1, 1100);
+	reg_rw(0x3019c, 1, 1100);
+	reg_rw(0x301a0, 1, 1100);
+	reg_rw(0x301a4, 1, 1100);
+	reg_rw(0x301a8, 1, 1100);
+	reg_rw(0x301ac, 1, 1100);
+
+	reg_rw(0x30024, 1, value);
+	reg_rw(0x30028, 1, value);
+	reg_rw(0x3002c, 1, value);
+	reg_rw(0x30030, 1, value);
+	reg_rw(0x30034, 1, value);
+	reg_rw(0x30038, 1, value);
+	reg_rw(0x3003c, 1, value);
+	reg_rw(0x30040, 1, value);
+	usleep(1000*1000);
+}
+
+int fpga_done(int card_num)
+{
+	g_card = card_num;
+	reg_rw(0x70000, 0, 0);
+	reg_rw(0x80000, 0, 0);
+	reg_rw(0x90000, 0, 0);
+	reg_rw(0xa0000, 0, 0);
+	reg_rw(0xb0000, 0, 0);
+	reg_rw(0xc0000, 0, 0);
+	reg_rw(0xd0000, 0, 0);
+	reg_rw(0xe0000, 0, 0);
+
+	reg_rw(0x70000, 1, 1);
+	reg_rw(0x80000, 1, 1);
+	reg_rw(0x90000, 1, 1);
+	reg_rw(0xa0000, 1, 1);
+	reg_rw(0xb0000, 1, 1);
+	reg_rw(0xc0000, 1, 1);
+	reg_rw(0xd0000, 1, 1);
+	reg_rw(0xe0000, 1, 1);
+
+	reg_rw(0x3000c, 1, 0xff);
+
+	//延迟发送 us
+	reg_rw(0x30044, 1, 100);
+	reg_rw(0x30048, 1, 100);
+	reg_rw(0x3004c, 1, 100);
+	reg_rw(0x30050, 1, 100);
+	reg_rw(0x30054, 1, 100);
+	reg_rw(0x30058, 1, 100);
+	reg_rw(0x3005c, 1, 100);
+	reg_rw(0x30060, 1, 100);
+
+	reg_rw(0x30020, 1, 0);
+}
+
+int fpga_trig(int card_num, int channel)
+{
+	//2 代表内触发, 1代表外触发
+	g_card = card_num;
+	reg_rw(0x30018, 1, 0); //disable trig
+	reg_rw(0x30020, 1, 0x22222222); //每一位代表一个通道
+	reg_rw(0x30018, 1, 0xff); //enable trig 每一位代表一个通道,上升沿触发
 }
