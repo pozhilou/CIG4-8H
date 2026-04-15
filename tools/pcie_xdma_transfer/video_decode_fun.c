@@ -41,7 +41,7 @@ int Scale_Frame(unsigned char* pSrc,unsigned char* pDst,int src_width, int src_h
     imgCtx = sws_getContext(src_width, src_height, pix_src, dst_width, dst_height, pix_dst, SWS_BICUBLIN , 0, 0, 0);
 
     if (imgCtx != NULL){
-        sws_scale(imgCtx, pFrameSrc.data, pFrameSrc.linesize, 0, src_height, pFrameDst.data, pFrameDst.linesize);
+        sws_scale(imgCtx, (const uint8_t *const *)pFrameSrc.data, pFrameSrc.linesize, 0, src_height, (uint8_t *const *)pFrameDst.data, pFrameDst.linesize);
         if(imgCtx){
             sws_freeContext(imgCtx);
             imgCtx = NULL;
